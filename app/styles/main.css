@@ -124,19 +124,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 -------------------------------------------------- */
 
 .bf-docs-jum {
-  /*padding-top: 20px;*/
   padding: 0 20px 0 0;
   margin: 0 0 0 0;
   background-color: #99CCCC;
 }
-
-/*#CC149B
-99CCCC
-3D9999
-00FF6F
-FF406C
-*/
-
 
 .bf-docs-jum h1 {
   padding-top: 20px;
