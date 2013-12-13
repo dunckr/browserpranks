@@ -252,6 +252,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   padding-top:    10px;
   padding-bottom: 10px;
   font-size: 12px;
+  background-color: #99CCCC;
 }
 .bf-sidebar .nav > li > a:hover,
 .bf-sidebar .nav > li > a:focus {
