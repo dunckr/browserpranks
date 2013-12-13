@@ -3,8 +3,6 @@
 /* Key scaffolding
 -------------------------------------------------- */
 body {
-  position: relative; /* For scrollyspy */
-  padding-top: 50px; /* Account for fixed navbar */
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
@@ -88,8 +86,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* Top nav and header
 -------------------------------------------------- */
 .bf-docs-nav {
-  border-bottom: 1px solid #454545 !important;  
+  border-bottom: 1px solid #454545 !important;
+  background-color: #FF406C;
+  margin-bottom: 0;
 }
+
 .bf-docs-nav .navbar-brand {
   padding-left: 60px;
   color: #fff;
@@ -105,12 +106,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .bf-docs-nav .navbar-nav > li > a:hover {
   color: #fff;
-  background-color: #2ba3d4;
+  background-color: #99CCCC;
 }
 .bf-docs-nav .navbar-nav > .active > a,
 .bf-docs-nav .navbar-nav > .active > a:hover {
   color: #fff;
-  background-color: #2ba3d4 !important;
+  background-color: #99CCCC !important;
 }
 
 /* Homepage */
@@ -119,8 +120,35 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #000;
 }
 
-/* Homepage masthead
+/* Jumbotron
 -------------------------------------------------- */
+
+.bf-docs-jum {
+  padding-top: 20px;
+  background-color: #99CCCC;
+}
+
+/*#CC149B
+99CCCC
+3D9999
+00FF6F
+FF406C
+*/
+.bf-docs-jum img {
+  max-height:100%;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto 0 auto;
+}
+
+.bf-docs-jum .btn {
+  background-color: #CC149B;
+}
+
+/* Homepage masthead
+-------------------------------------------------- 
 
 .bf-masthead {
   position: relative;
