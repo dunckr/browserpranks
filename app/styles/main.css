@@ -124,7 +124,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 -------------------------------------------------- */
 
 .bf-docs-jum {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
+  padding: 0 20px 0 0;
+  margin: 0 0 0 0;
   background-color: #99CCCC;
 }
 
@@ -134,6 +136,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 00FF6F
 FF406C
 */
+
+
+.bf-docs-jum h1 {
+  padding-top: 20px;
+}
 .bf-docs-jum img {
   max-height:100%;
   display: block;
@@ -147,76 +154,6 @@ FF406C
   background-color: #CC149B;
 }
 
-/* Homepage masthead
--------------------------------------------------- 
-
-.bf-masthead {
-  position: relative;
-  text-align: center;
-  background: #cbcbcd url(../img/rende.png) no-repeat 50% 100px;
-}
-.bf-masthead a,
-.bf-masthead a:hover,
-.bf-masthead a:active {
-  color: #fff;
-}
-.bf-masthead .bf-masthead-bg {
-  padding: 30px 15px;
-  background-color: rgba(43, 163, 212, 0.85)
-}
-.bf-masthead .logo {
-  background: url(../img/logo.png) no-repeat 50% 0;
-  height: 203px;
-}
-.bf-masthead h1 {
-  margin-top: -30px;
-  font-size: 50px;
-  line-height: 1;
-  color: #fff;
-}
-.bf-masthead .bf-masthead-links a,
-.bf-masthead .bf-masthead-links a:hover {
-  color: #fff;
-}
-.bf-masthead-info {
-  padding: 80px 20px; 
-  font-size: 28px;
-  background-color: #fc5d7b;
-  color: rgba(0, 0, 0, .3);
-}
-.bf-masthead-info .icon-angle-down {
-  font-size: 40px;
-}
-
-/* Download button */
-.bf-masthead .btn-outline {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #fff;
-  padding: 18px 24px;
-  font-size: 21px;
-  color: #fff;
-}
-.bf-masthead .btn-outline:hover {
-  background-color: #fff;
-  color: #42a8d2;
-}
-
-.bf-masthead-links {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  padding-left: 0;
-  list-style: none;
-  text-align: left;
-}
-.bf-masthead-links li {
-  margin-bottom: 15px;
-  color: #fff;
-}
-.bf-masthead-links a {
-  color: #c8c7c6;
-}
-
 /* Homepage features
 -------------------------------------------------- */
 .bf-features {
@@ -225,7 +162,7 @@ FF406C
   text-align: center;
 }
 .bf-features {
-  padding: 80px 0;
+  padding: 20px 0;
 }
 .bf-features h2 {
   margin-bottom: 20px;
@@ -289,6 +226,7 @@ FF406C
   color: #fff;
   text-decoration: underline;
 }
+
 
 /* Docs pages and sections
 -------------------------------------------------- */
