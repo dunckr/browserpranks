@@ -1,8 +1,8 @@
 # BrowserPranks
 
-Homepage for BrowserPranks
+Homepage for [BrowserPranks](http://dunckr.github.io/browserpranks/dist)
 
-<img src="https://raw.github.com/dunckr/browserpranks/gh-pages/app/images/mascot.png" style="width: 300px;" />
+<img src="https://raw.github.com/dunckr/browserpranks/gh-pages/app/images/mascot.png" style="width: 10%;" />
 
 #### NPM
 
